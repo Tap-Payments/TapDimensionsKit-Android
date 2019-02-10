@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tk="http://schemas.android.com/apk/res/com.tap.tapdimensionskit"
+    tools:ignore="ResAuto">
+
+    <com.tap.tapdimensionskit.TapDimensionsPreference
+        android:defaultValue="80"
+        android:key="@string/preference_dimension_key"
+        tk:title="@string/dim_title"
+        tk:counterMinVal="10"
+        tk:counterMaxVal="100"
+        tk:counterStepVal="10"
+        />
+
+</PreferenceScreen>

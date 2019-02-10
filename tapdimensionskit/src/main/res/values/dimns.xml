@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="stepDimns">1</dimen>
+    <dimen name="defaultDimns">2</dimen>
+    <dimen name="minDimns">0</dimen>
+    <dimen name="counterTitleTextSize">18sp</dimen>
+    <dimen name="layout_margin">16dp</dimen>
+    <dimen name="layout_margin_top">4dp</dimen>
+    <dimen name="layout_margin_bottom">4dp</dimen>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TapDimensionsPreference">
+        <attr name="counterStepVal" format="integer"/>
+        <attr name="defaultValue" format="integer"/>
+        <attr name="counterMinVal" format="integer"/>
+        <attr name="counterMaxVal" format="integer"/>
+        <attr name="title"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/layout_margin"
+    android:background="@color/white"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:layout_marginLeft="@dimen/layout_margin"
+        >
+
+        <TextView
+            android:id="@+id/counterTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/default_title"
+            android:textSize="@dimen/counterTitleTextSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/row_back"
+        android:orientation="horizontal"
+        android:layout_marginRight="@dimen/layout_margin"
+        android:layout_marginEnd="@dimen/layout_margin"
+        android:layout_marginTop="@dimen/layout_margin_top"
+        android:layout_marginBottom="@dimen/layout_margin_bottom"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:id="@+id/decrement"
+            >
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="2dp"
+                android:src="@drawable/minusicon"
+               android:layout_centerInParent="true"
+
+                />
+
+        </RelativeLayout>
+
+
+
+        <Button
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/vertical_line1"
+
+            />
+
+        <Button
+            android:id="@+id/value"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center"
+            android:text="0"
+            android:textAlignment="gravity"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/vertical_line1" />
+
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:id="@+id/increment"
+            >
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:src="@drawable/plusicon"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
